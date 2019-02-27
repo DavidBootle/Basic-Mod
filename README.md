@@ -15,6 +15,7 @@ The purpose of this mod is not to add any functionality or gameplay aspects to m
 ### Basic Item
 The basic item is a simple item that is not usable (ex. a material such as diamonds or iron ingots), but is just used in crafting recipies.
 
+#### Technical
 A basic item is initialized using the `ItemBase` class. It takes two arguments: `name` and `tab`.
 - `name`: a `String` specifying the internal name of the item.
 - `tab`: a `CreativeTabs` object specifying the tab that the item will be in in the creative inventory.
@@ -24,6 +25,7 @@ A basic item is initialized using the `ItemBase` class. It takes two arguments: 
 ### Basic Block
 The basic block is a simple block that does not have a function and has no special properties.
 
+#### Technical
 The basic block is initialized using the `BlockBase` class. It takes three arguments: `name`, `material`, and `tab`.
 - `name`: a `String` specifying the internal name of the block.
 - `material`: a `Materials` object that specifies the block's sounds.
