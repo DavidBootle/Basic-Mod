@@ -26,7 +26,7 @@ A basic item is initialized using the `ItemBase` class. It takes two arguments: 
 The basic block is a simple block that does not have a function and has no special properties.
 
 #### Technical
-The basic block is initialized using the `BlockBase` class. It takes three arguments: `name`, `material`, and `tab`.
+A basic block is initialized using the `BlockBase` class. It takes three arguments: `name`, `material`, and `tab`.
 - `name`: a `String` specifying the internal name of the block.
 - `material`: a `Materials` object that specifies the block's sounds.
 - `tab`: a `CreativeTabs` object specifying the tab that the block will be in in the creative inventory.
